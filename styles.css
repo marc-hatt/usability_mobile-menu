@@ -7,7 +7,7 @@ body {
     font-size: 1rem;
 }
 .menu {
-	background:#ecf2f9;
+	background:aliceblue;
 	display:none;
 	width:100%;
 }
@@ -48,11 +48,11 @@ body {
 
 #toggle {
     font-size: 2em;
-    color: #9ebde0;
+    color: #1f4060;
 }
 
 #toggle:hover {
-    color: #1f4060;
+    color: blue;
     transition: 0.7s;
 }
 
@@ -102,7 +102,15 @@ p {
     font-weight: 400;
     font-size: 1.3em;
     line-height: 1.4;
-    color:#1f4060;
+    color:black;
+}
+
+a {
+    color: midnightblue;
+}
+
+a:hover {
+    color: blue;
 }
 
 @media only screen and (max-width: 768px) {
